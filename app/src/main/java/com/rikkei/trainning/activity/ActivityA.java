@@ -19,6 +19,9 @@ public class ActivityA extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a);
+        //onCreate - onDestroy
+        //onStart - onStop
+        //onResume - onPause
         Log.d(myTag,"Start OnCreate A");
         Toast.makeText(this, "Start OnCreate A", Toast.LENGTH_LONG).show();
         btnStartB = findViewById(R.id.btnStartB);
